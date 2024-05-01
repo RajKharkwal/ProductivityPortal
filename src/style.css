@@ -1,109 +1,162 @@
-:root{
-    --bg-color:#373434;
-    --font-color:#D9D9D9;
-    --font:'Lato',sans-serif;
-}
-body,html{
-   height:100%;
-   width:100%;
-   background-color: var(--bg-color);
-   color:var(--font-color);
-   background-color:var(--bg-color);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
 
+:root {
+  --bg-color: #373434;
+  --font-color: #d9d9d9;
+  --font: "Lato", sans-serif;
 }
-*{
-    padding:0px;
-    margin:0px;
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  background-color: var(--bg-color);
 }
-.container{
-    height:100%;
-    width:100%;
+* {
+  padding: 0px;
+  margin: 0px;
 }
-.pomo-container{
-    width:100%;
-    height:100%;
-    display:flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items:center;
-    gap:40px;
+.container {
+  height: 100%;
+  width: 100%;
 }
-.pomo-buttons{
-    /* width:200px;
+.pomo-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.pomo-buttons {
+  /* width:200px;
     height:50px; */
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    gap:5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
 }
-.pomo-btn{
-    width:130px;
-    height:40px;
-    background-color: var(--bg-color);
-    border:var(--font-color) 3px solid;
-    color:var(--font-color);
-    font-family:var(--font);
-    font-size:1rem;
-    font-weight:bold;
-    transition: 0.4s ease;
+.pomo-btn {
+  width: 130px;
+  height: 40px;
+  background-color: var(--bg-color);
+  border: var(--font-color) 3px solid;
+  color: var(--font-color);
+  font-family: var(--font);
+  font-size: 1rem;
+  font-weight: bold;
+  transition: 0.4s ease;
 }
-.pomo-btn:hover{
-    background-color: var(--font-color);
-    color:var(--bg-color);
+.pomo-btn:hover {
+  background-color: var(--font-color);
+  color: var(--bg-color);
 }
-.pomo-clock{
-    height:380px;
-    width:380px;
+.pomo-clock {
+  height: 380px;
+  width: 380px;
 }
-.clock{
-    border:var(--font-color) 3px solid;
-    border-radius:400px;
-    /* background-color: rgb(238, 87, 87); */
-    height:100%;
-    width:100%;
-    position:relative;
+.clock {
+  border: var(--font-color) 3px solid;
+  border-radius: 400px;
+  /* background-color: rgb(238, 87, 87); */
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.clock h3 {
+  position: absolute;
+  top: 42%;
+  left: 35%;
+  font-size: 2.5rem;
+  font-family: var(--font);
+}
+.control-buttons {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 25px 25px;
+  gap: 25px;
+}
+#play-btn {
+  width: 25px;
+  height: 25px;
+}
+.music-play {
+  display: grid;
+  grid-template-columns: 20rem 20rem;
+  gap: 75px;
+}
+#add-music,
+#music-info {
+  width: 19rem;
+  height: 1.625rem;
+  border-radius: 0.9rem;
+  padding: 2px;
+  padding-left: 0.5rem;
+}
+#add-music::placeholder {
+  font-family: var(--font);
+}
+#music-info {
+  border: 3px var(--font-color) solid;
+  color: var(--font-color);
+  position: relative;
+}
+.now-playing-icon {
+  position: absolute;
+  top: 22%;
+  display: hidden;
+}
+.tdapp {
+  width: 100%;
+  max-width: 540px;
+  background: #fff;
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 10px;
+}
+.tdapp h2 {
+  color: #373434;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.tdapp h2 img {
+  width: 30px;
+  margin-left: 10px;
+}
+.radioadd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #edeef0;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  background: #cfc4c4;
+}
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  font-weight: 24px;
+ 
+}
+button{
+    border: none;
+  outline: none;
+  padding: 16px 18px;
+  cursor: pointer;
+  border-radius: 40px;
+  background: #373434;
+
 
 }
-.clock h3{
-    position:absolute;
-    top:42%;
-    left:35%;
-    font-size:2.5rem;
-    font-family:var(--font);
-}
-.control-buttons{
-    display:grid;
-    align-items: center;
-    grid-template-columns: 25px 25px;
-    gap:25px;
-}
-#play-btn{
-    width:25px; 
-    height:25px;
-}
-.music-play{
-    display:grid;
-    grid-template-columns:20rem 20rem;
-    gap:75px;
-}
-#add-music , #music-info{
-    width:19rem;
-    height:1.625rem;
-    border-radius:0.9rem;
-    padding:2px;
-    padding-left:0.5rem;
-}
-#add-music::placeholder{
-    font-family:var(--font);
-
-}
-#music-info{
-    border:3px var(--font-color) solid;
-    color:var(--font-color);
-    position:relative;
-}
-.now-playing-icon{
-    position:absolute;
-    top:22%;
-    display: hidden;
+button img{
+    width: 30px;
+    height: 30px;
 }
