@@ -5,18 +5,20 @@ Welcome to the Productivity Portal! This web application aims to boost your prod
 Pomodoro Timer
 The Pomodoro Technique is a time management method that breaks work into intervals, traditionally 25 minutes in length, separated by short breaks. Our Pomodoro timer helps you implement this technique effectively by providing:
 
-### Start, pause, and reset functionalities.
-Customizable session lengths: Pomodoro (25 minutes), Short Break (5 minutes), and Long Break (15 minutes).
-Visual cues to indicate different session types.
+### Start, pause, and reset functionalities In the Timer.
+Customizable session lengths:  At Default settings -> Pomodoro (25 minutes), Short Break (5 minutes), and Long Break (15 minutes) but can be changed on user demand to any amount of time required (BETA).
+
+-> Visual cues to indicate different session types.
 
 ### To-Do List
 Stay organized and manage your tasks efficiently with our built-in to-do list feature. You can:
 
 ### Add, edit, and delete tasks.
-Mark tasks as completed to track your progress.
-Prioritize tasks with drag-and-drop functionality.
+-> Mark tasks as completed to track your progress.
+-> Prioritize tasks with drag-and-drop functionality (BETA).
+
 ### Spotify Integration
-Enhance your focus sessions with your favorite music playlists from Spotify. Simply paste your Spotify playlist link, and enjoy seamless integration while you work.
+Enhance your focus sessions with your favorite music playlists from Spotify. Simply paste your Spotify playlist link, and enjoy seamless integration while you work (BETA).
 ## Technologies Used
 Html : Building the structure of the ProductivityPortal
 
