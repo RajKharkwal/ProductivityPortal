@@ -27,10 +27,3 @@ lst.addEventListener("click", function(e){
     }
 },false);
 
-function saveData(){
-    localStorage.setItem("datatodo",lst.innerHTML);
-}
-function showtask(){
-    lst.innerHTML = localStorage.getItem("datatodo");
-}
-showtask();
