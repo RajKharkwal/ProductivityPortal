@@ -8,6 +8,7 @@ The Pomodoro Technique is a time management method that breaks work into interva
 ### Start, pause, and reset functionalities.
 Customizable session lengths: Pomodoro (25 minutes), Short Break (5 minutes), and Long Break (15 minutes).
 Visual cues to indicate different session types.
+
 ### To-Do List
 Stay organized and manage your tasks efficiently with our built-in to-do list feature. You can:
 
@@ -18,9 +19,13 @@ Prioritize tasks with drag-and-drop functionality.
 Enhance your focus sessions with your favorite music playlists from Spotify. Simply paste your Spotify playlist link, and enjoy seamless integration while you work.
 ## Technologies Used
 Html : Building the structure of the ProductivityPortal
-css: Designing the website and making it responsive
+
+Css: Designing the website and making it responsive
+
 Javascript: Making the website functional and interactive.
+
 We welcome contributions from the community to improve and expand the functionality of the Productivity Portal. To contribute, please fork this repository, make your changes, and submit a pull request.
 
 ## License
 This project is licensed under the MIT License.
+
