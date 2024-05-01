@@ -24,7 +24,6 @@ html {
 }
 .pomo-container {
   width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -87,6 +86,7 @@ html {
   display: grid;
   grid-template-columns: 20rem 20rem;
   gap: 75px;
+  justify-content:center;
 }
 #add-music,
 #music-info {
@@ -108,111 +108,5 @@ html {
   position: absolute;
   top: 22%;
   display: hidden;
-}
-.tdapp {
-  width: 100%;
-  max-width: 540px;
-  background: #fff;
-  margin: 100px auto 20px;
-  padding: 40px 30px 70px;
-  border-radius: 10px;
-}
-.tdapp h2 {
-  color: #373434;
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  font-family: "Montserrat", sans-serif;
-}
-.tdapp h2 img {
-  width: 30px;
-  margin-left: 10px;
-}
-.radioadd {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-radius: 30px;
-  padding-left: 20px;
-  margin-bottom: 25px;
-  background: #cfc4c4;
-  font-family: "Montserrat", sans-serif;
-}
-#inputbox {
-  flex: 1;
-  border: none;
-  outline: none;
-  background: transparent;
-  padding: 10px;
-  font-weight: 24px;
-}
-
-.to-do-btn{
-    border: none;
-    outline: none;
-    padding: 16px 18px;
-    cursor: pointer;
-    border-radius: 40px;
-    background: #373434;
-
-.to-do-btn img{
-    width: 30px;
-    height: 30px;
-}
-
-}
-button img {
-  width: 30px;
-  height: 30px;
-}
-ul li {
-  list-style: none;
-  font-size: 17px;
-  padding: 12px 8px 12px 50px;
-  user-select: none;
-  color: #373434;
-  cursor: pointer;
-  font-family: "Hind";
-  position: relative;
-}
-ul li::before {
-  content: "";
-  position: absolute;
-  height: 28px;
-  width: 28px;
-  border-radius: 50%;
-  background-image: url(/public/unchecked.png);
-  background-size: cover;
-  background-position: center;
-  top: 12px;
-  left: 8px;
-}
-
-ul li.tick {
-  color: #9c9393;
-  text-decoration: line-through;
-}
-
-ul li.tick::before {
-    background-image: url(/public/checked.png);
-}
-ul li cross{
-    position: absolute;
-    right: 0;
-    top: 5px;
-    width: 40px;
-    height: 40px;
-    font-size: 22px;
-    color: #373434;
-    line-height: 40px;
-    text-align: center;
-
-}
-ul li cross:hover{
-    border: none;
-    outline: none;
-    cursor: pointer;
-    border-radius: 50%;
-    background: #edeef0;
 }
 
