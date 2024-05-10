@@ -45,8 +45,7 @@ function resetTimer(){
     const timeElement=document.getElementById("time");
     timeElement.textContent=formatTime(minutes,seconds);
     isPause=false;
-    playButton.src="/public/pause.png";
-    startTimer();
+    pauseToResume();
 }
 function shortBreak(){
         clearInterval(timer);
@@ -56,7 +55,8 @@ function shortBreak(){
         seconds=0;
         const timeElement=document.getElementById("time");
         timeElement.textContent = formatTime(minutes,seconds);
-        startTimer();
+        playButton.src="/public/resume.png"
+        //startTimer();
 }
 function longBreak(){
 
